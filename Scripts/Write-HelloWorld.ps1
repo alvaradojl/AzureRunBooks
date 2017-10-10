@@ -19,7 +19,7 @@
 
 .NOTES
 	Author: System Center Automation Team 
-	Last Updated: 3/3/2014   
+	Last Updated: 10.10.2017 
 #>
 
 
@@ -33,6 +33,6 @@ workflow Write-HelloWorld {
         [String]$Name = "World"
     )
 
-        Write-Output "Hello $Name"
+        Write-Output "Hello there $Name"
 
 }
